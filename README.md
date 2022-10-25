@@ -20,6 +20,21 @@ npm i
 npm run start:dev
 ```
 
+## API Routes
+
+> The request headers for all routes should contain account SID and auth token.
+
+```sh
+request: {
+  headers: {
+    accoundsid: 'xxx-accountsid-xxx',
+    authtoken: 'xxx-authtoken-xxx'
+  }
+}
+```
+
+### Sending text messages
+
 ## Author
 
 👤 **Akshat Vishwakarma**
