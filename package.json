@@ -1,0 +1,21 @@
+{
+  "name": "twilio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start:dev": "nodemon src/server",
+    "start:prod": "node src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0",
+    "morgan": "^1.10.0",
+    "twilio": "^3.83.0"
+  }
+}
