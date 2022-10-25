@@ -35,6 +35,33 @@ request: {
 
 ### Sending text messages
 
+> The request body should contain the following: from, to and body
+
+```sh
+request: {
+  body: {
+    from: 'whatsapp:xxx-senders-number-xxx',
+    to: 'whatsapp:xxx-recievers-number-xxx',
+    body: 'xxx-your-message-xxx'
+  }
+}
+```
+
+### Sending media messages
+
+> The request body should contain the following: from, to, body[optional] and mediaUrl
+
+```sh
+request: {
+  body: {
+    from: 'whatsapp:xxx-senders-number-xxx',
+    to: 'whatsapp:xxx-recievers-number-xxx',
+    body: 'xxx-your-optional-message-xxx',
+    mediaUrl: 'xxx-media-url-xxx'
+  }
+}
+```
+
 ## Author
 
 👤 **Akshat Vishwakarma**
